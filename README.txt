@@ -1,2 +1,4 @@
-კოდს .get() ფუნქციის გამოყენებით მოაქვს ინფორმაცია API-დან, მის გარკვეულ ნაწილს პრინტავს, ხოლო მას მთლიანად ინახავს .json ფაილში. 
-ასევე API-დან წამოღებული ინფორმაციის ნაწილი (ხუმრობა ჩაკ ნორისის შესახებ) ინახება Sqlite3 დათაბაზაში და მას ენიჭება უნიკალური ID, რომლითაც შემდგომ შეგვიძლია მივწვდეთ.
+Code gets certain information from Chuk Norris API, prints out certain part of it, and the rest (alongside with
+already printed info) gets saved into .json file. Moreover, whole info gets saved in Sqlite3 database where it is getting
+simultaneously numbered and autoincremented.
+
